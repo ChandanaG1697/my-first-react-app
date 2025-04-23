@@ -3,14 +3,14 @@
 
     environment {
         SONAR_HOST_URL = 'https://sonarcloud.io'
-        SONAR_ORG = ''  // Replace with your SonarCloud organization name
-        SONAR_PROJECT_KEY = '' // Replace with your SonarCloud project key
+        SONAR_ORG = 'Chandana Govindaraj'  // Replace with your SonarCloud organization name
+        SONAR_PROJECT_KEY = 'ChandanaG1697_my-first-react-app' // Replace with your SonarCloud project key
     }
 
     stages {
         stage('Clone Repository') {
             steps {
-                git branch: 'main', url: ''  // Replace with your GitHub repo
+                git branch: 'main', url: 'https://github.com/ChandanaG1697/my-first-react-app.git'  // Replace with your GitHub repo
             }
         }
 
